@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.container h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.notice-card{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.notice-card h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.date{
+    color:#ff5722;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.admin{
+    display:block;
+    margin-top:20px;
+    color:#666;
+}

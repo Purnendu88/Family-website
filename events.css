@@ -1,0 +1,56 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:40px auto;
+}
+
+.container h1{
+text-align:center;
+margin-bottom:30px;
+}
+
+.event-card{
+background:#fff;
+padding:25px;
+margin-bottom:20px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,.1);
+}
+
+.event-card h2{
+color:#2563eb;
+margin-bottom:10px;
+}
+
+.event-card h3{
+margin-bottom:8px;
+}
+
+.event-card p{
+color:#666;
+margin-bottom:15px;
+}
+
+.event-card button{
+padding:10px 20px;
+border:none;
+background:#2563eb;
+color:#fff;
+border-radius:6px;
+cursor:pointer;
+}
+
+.event-card button:hover{
+background:#1d4ed8;
+}

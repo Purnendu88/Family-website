@@ -1,0 +1,49 @@
+css
+.register-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f7fb;
+    padding: 40px 20px;
+}
+.register-box{
+    width: 500px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+.register-box h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: blue;
+}
+.register-box input,
+.register-box select,
+.register-box textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #add;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.register-box textarea{
+    resize: none;
+    height: 80px;
+}
+.register-box button{
+     width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register-box button:hover{
+    background: #1d4ed8;
+}
